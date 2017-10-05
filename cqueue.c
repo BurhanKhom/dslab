@@ -99,7 +99,7 @@ int main()
 		switch(n)
 		{
 			case 1 : printf("Enter element to insert :");
-					 scanf("%c", &ele);
+					 scanf("\n%c", &ele);
 					 insert(ele);
 					 break;
 			case 2 : delete();
