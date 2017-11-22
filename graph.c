@@ -22,7 +22,7 @@ void bfs(int c)
 	{
 		visited[q[f]]=1;
 		printf("%d ", q[f]);
-		bfs(c);
+		bfs(q[f++]);
 	}
 
 }
